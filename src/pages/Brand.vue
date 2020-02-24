@@ -251,109 +251,7 @@
               </select>
             </div>
             <div class="product">
-              <router-link to="/cart">
-                <article class="product-box">
-                  <img src="/img/product1-1.jpg" alt="product" />
-                  <button>
-                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
-                    Cart
-                  </button>
-                  <p class="product-box-name">Mango People T-shirt</p>
-                  <p class="product-box-price">$52.00</p>
-                </article>
-              </router-link>
-              <router-link to="/cart">
-                <article class="product-box">
-                  <img src="/img/product1-2.jpg" alt="product" />
-                  <button>
-                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
-                    Cart
-                  </button>
-                  <p class="product-box-name">
-                    Mango People T-shirt Mango People T-shirt Mango People
-                    T-shirt
-                  </p>
-                  <p class="product-box-price">$52.00</p>
-                </article>
-              </router-link>
-
-              <router-link to="/cart">
-                <article class="product-box">
-                  <img src="/img/product1-3.jpg" alt />
-                  <button>
-                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
-                    Cart
-                  </button>
-                  <p class="product-box-name">Mango People T-shirt</p>
-                  <p class="product-box-price">$52.00</p>
-                </article>
-              </router-link>
-              <router-link to="/cart">
-                <article class="product-box">
-                  <img src="/img/product2-1.jpg" alt="product" />
-                  <button>
-                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
-                    Cart
-                  </button>
-                  <p class="product-box-name">Mango People T-shirt</p>
-                  <p class="product-box-price">$52.00</p>
-                </article>
-              </router-link>
-              <router-link to="/cart">
-                <article class="product-box">
-                  <img src="/img/product2-2.jpg" alt="product" />
-                  <button>
-                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
-                    Cart
-                  </button>
-                  <p class="product-box-name">Mango People T-shirt</p>
-                  <p class="product-box-price">$52.00</p>
-                </article>
-              </router-link>
-              <router-link to="/cart">
-                <article class="product-box">
-                  <img src="/img/product2-3.jpg" alt="product" />
-                  <button>
-                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
-                    Cart
-                  </button>
-                  <p class="product-box-name">Mango People T-shirt</p>
-                  <p class="product-box-price">$52.00</p>
-                </article>
-              </router-link>
-              <router-link to="/cart">
-                <article class="product-box">
-                  <img src="/img/product3-1.jpg" alt="product" />
-                  <button>
-                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
-                    Cart
-                  </button>
-                  <p class="product-box-name">Mango People T-shirt</p>
-                  <p class="product-box-price">$52.00</p>
-                </article>
-              </router-link>
-              <router-link to="/cart">
-                <article class="product-box">
-                  <img src="/img/product3-2.jpg" alt="product" />
-                  <button>
-                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
-                    Cart
-                  </button>
-                  <p class="product-box-name">Mango People T-shirt</p>
-                  <p class="product-box-price">$52.00</p>
-                </article>
-              </router-link>
-              <router-link to="/cart">
-                <article class="product-box">
-                  <img src="/img/product3-3.jpg" alt />
-                  <button>
-                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
-                    Cart
-                  </button>
-                  <p class="product-box-name">Mango People T-shirt</p>
-                  <p class="product-box-price">$52.00</p>
-                </article>
-              </router-link>
+             <ProductItems :items="productItems" />
             </div>
             <div class="bottom-wide flex-box">
               <div class="pagination">
@@ -403,12 +301,61 @@
 
 <script>
 import Page from "@/views/Page.vue";
-
+import ProductItems from "@/components/ProductItems.vue";
 export default {
   name: 'Brand',
+  data: () => ({
+    productItems: [
+      {
+        name: "Mango People T-shirt",
+        cost: 52,
+        img: "/img/product1-1.jpg"
+      },
+      {
+        name: "Mango People T-shirt",
+        cost: 52,
+        img: "/img/product1-2.jpg"
+      },
+      {
+        name: "Mango People T-shirt",
+        cost: 52,
+        img: "/img/product1-3.jpg"
+      },
+      {
+        name: "Mango People T-shirt",
+        cost: 52,
+        img: "/img/product2-1.jpg"
+      },
+      {
+        name: "Mango People T-shirt",
+        cost: 52,
+        img: "/img/product2-2.jpg"
+      },
+      {
+        name: "Mango People T-shirt",
+        cost: 52,
+        img: "/img/product2-3.jpg"
+      },
+      {
+        name: "Mango People T-shirt",
+        cost: 52,
+        img: "/img/product3-1.jpg"
+      },
+      {
+        name: "Mango People T-shirt",
+        cost: 52,
+        img: "/img/product3-2.jpg"
+      },
+      {
+        name: "Mango People T-shirt",
+        cost: 52,
+        img: "/img/product3-3.jpg"
+      },
+    ]
+  }),
   components: {
-    Page
-  }
+    Page,ProductItems
+  },
 };
 </script>
 

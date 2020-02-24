@@ -138,9 +138,6 @@ export default {
   components: {
     Page,
     ProductItems
-  },
-  props: {
-    msg: String
   }
 };
 </script>
