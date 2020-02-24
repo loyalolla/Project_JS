@@ -405,7 +405,7 @@
 import Page from "@/views/Page.vue";
 
 export default {
-  name: "Brand",
+  name: 'Brand',
   components: {
     Page
   }

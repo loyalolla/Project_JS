@@ -168,7 +168,7 @@
 import Page from "@/views/Page.vue";
 
 export default {
-  name: "Index",
+  name: 'Index',
   components: {
     Page
   },

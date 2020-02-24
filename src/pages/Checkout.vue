@@ -106,7 +106,7 @@
 import Page from "@/views/Page.vue";
 
 export default {
-  name: "Checkout",
+  name: 'Checkout',
   components: {
     Page
   }

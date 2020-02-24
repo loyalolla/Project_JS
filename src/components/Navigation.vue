@@ -1,5 +1,4 @@
 <template>
-  <!-- <router-link to="/">aaaaa</router-link> -->
   <nav class="header__nav">
     <ul>
       <li>
@@ -115,6 +114,6 @@
 
 <script>
 export default {
-  name: "Navigation"
+  name: 'Navigation'
 };
 </script>

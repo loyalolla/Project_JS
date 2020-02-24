@@ -102,7 +102,7 @@
 import Page from "@/views/Page.vue";
 
 export default {
-  name: "Single",
+  name: 'Single',
   components: {
     Page
   }
