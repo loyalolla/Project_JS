@@ -3,7 +3,7 @@
     <section class="subscribe">
       <div class="container subscribe-block">
         <div class="subscribe-block-left">
-          <img src="../assets/img/avatar.png" alt="avatar" />
+          <img src="/img/avatar.png" alt="avatar" />
           <p>
             "Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum
             mattis neque sed pretium"
@@ -37,7 +37,7 @@
       <div class="container flex-box-up">
         <div class="footer-block">
           <router-link class="logo footer__logo" to="/">
-            <img src="../assets/img/logo.png" alt="Brand" />
+            <img src="/img/logo.png" alt="Brand" />
             <p class="logo__text">
               Bran
               <span class="logo__text_pink">d</span>

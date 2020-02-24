@@ -314,7 +314,7 @@ nav ul li .mega-menu .mega-menu-row {
 
 /*  Product (v.1.0)  */
 
-.product {
+.product, .products__container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -444,7 +444,7 @@ nav ul li .mega-menu .mega-menu-row {
 /*   Subscribe (v.1.0)  */
 
 .subscribe {
-	background: #f2f2f2 url(../assets/img/Layer_41.png) center center no-repeat;
+	background: #f2f2f2 url(/img/Layer_41.png) center center no-repeat;
 	height: 441px;
 	position: relative;
 	z-index: 1;
@@ -673,7 +673,7 @@ nav ul li .mega-menu .mega-menu-row {
 
 .slider-bg {
 	height: 100%;
-	background: url(../assets/img/promo_back.jpg);
+	background: url(/img/promo_back.jpg);
 }
 
 .slider-bg h1 {
@@ -757,7 +757,7 @@ nav ul li .mega-menu .mega-menu-row {
 	display: block;
 	width: 767px;
 	height: 529px;
-	background: #222222 url(../assets/img/Image.png) 0 0 no-repeat;
+	background: #222222 url(/img/Image.png) 0 0 no-repeat;
 }
 
 .feature-title:hover :hover {

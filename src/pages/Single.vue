@@ -20,7 +20,7 @@
 
       <div class="singlepage-slider">
         <div class="container sp_nav">
-          <img src="../assets/img/layer-43.jpg" alt="Moschino Cheap And Chic" />
+          <img src="/img/layer-43.jpg" alt="Moschino Cheap And Chic" />
 
           <a class="prev" href="#">
             <i class="fas fa-chevron-left fa-2x"></i>
@@ -55,9 +55,9 @@
         <h3 class="product-title">YOU MAY LIKE ALSO</h3>
         <router-link to="/cart">
           <article class="product-box">
-            <img src="../assets/img/single1.jpg" alt />
+            <img src="/img/single1.jpg" alt />
             <button>
-              <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
+              <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to Cart
             </button>
             <p class="product-box-name">BLAZE LEGGINGS</p>
             <p class="product-box-price">$52.00</p>
@@ -65,9 +65,9 @@
         </router-link>
         <router-link to="/cart">
           <article class="product-box">
-            <img src="../assets/img/single2.jpg" alt />
+            <img src="/img/single2.jpg" alt />
             <button>
-              <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
+              <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to Cart
             </button>
             <p class="product-box-name">ALEXA SWEATER</p>
             <p class="product-box-price">$52.00</p>
@@ -75,9 +75,9 @@
         </router-link>
         <router-link to="/cart">
           <article class="product-box">
-            <img src="../assets/img/single3.jpg" alt />
+            <img src="/img/single3.jpg" alt />
             <button>
-              <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
+              <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to Cart
             </button>
             <p class="product-box-name">AGNES TOP</p>
             <p class="product-box-price">$52.00</p>
@@ -85,9 +85,9 @@
         </router-link>
         <router-link to="/cart">
           <article class="product-box">
-            <img src="../assets/img/single4.jpg" alt />
+            <img src="/img/single4.jpg" alt />
             <button>
-              <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
+              <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to Cart
             </button>
             <p class="product-box-name">SYLVA SWEATER</p>
             <p class="product-box-price">$52.00</p>

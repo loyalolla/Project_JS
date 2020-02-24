@@ -253,9 +253,9 @@
             <div class="product">
               <router-link to="/cart">
                 <article class="product-box">
-                  <img src="../assets/img/product1-1.jpg" alt="product" />
+                  <img src="/img/product1-1.jpg" alt="product" />
                   <button>
-                    <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to
+                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
                     Cart
                   </button>
                   <p class="product-box-name">Mango People T-shirt</p>
@@ -264,9 +264,9 @@
               </router-link>
               <router-link to="/cart">
                 <article class="product-box">
-                  <img src="../assets/img/product1-2.jpg" alt="product" />
+                  <img src="/img/product1-2.jpg" alt="product" />
                   <button>
-                    <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to
+                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
                     Cart
                   </button>
                   <p class="product-box-name">
@@ -279,9 +279,9 @@
 
               <router-link to="/cart">
                 <article class="product-box">
-                  <img src="../assets/img/product1-3.jpg" alt />
+                  <img src="/img/product1-3.jpg" alt />
                   <button>
-                    <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to
+                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
                     Cart
                   </button>
                   <p class="product-box-name">Mango People T-shirt</p>
@@ -290,9 +290,9 @@
               </router-link>
               <router-link to="/cart">
                 <article class="product-box">
-                  <img src="../assets/img/product2-1.jpg" alt="product" />
+                  <img src="/img/product2-1.jpg" alt="product" />
                   <button>
-                    <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to
+                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
                     Cart
                   </button>
                   <p class="product-box-name">Mango People T-shirt</p>
@@ -301,9 +301,9 @@
               </router-link>
               <router-link to="/cart">
                 <article class="product-box">
-                  <img src="../assets/img/product2-2.jpg" alt="product" />
+                  <img src="/img/product2-2.jpg" alt="product" />
                   <button>
-                    <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to
+                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
                     Cart
                   </button>
                   <p class="product-box-name">Mango People T-shirt</p>
@@ -312,9 +312,9 @@
               </router-link>
               <router-link to="/cart">
                 <article class="product-box">
-                  <img src="../assets/img/product2-3.jpg" alt="product" />
+                  <img src="/img/product2-3.jpg" alt="product" />
                   <button>
-                    <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to
+                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
                     Cart
                   </button>
                   <p class="product-box-name">Mango People T-shirt</p>
@@ -323,9 +323,9 @@
               </router-link>
               <router-link to="/cart">
                 <article class="product-box">
-                  <img src="../assets/img/product3-1.jpg" alt="product" />
+                  <img src="/img/product3-1.jpg" alt="product" />
                   <button>
-                    <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to
+                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
                     Cart
                   </button>
                   <p class="product-box-name">Mango People T-shirt</p>
@@ -334,9 +334,9 @@
               </router-link>
               <router-link to="/cart">
                 <article class="product-box">
-                  <img src="../assets/img/product3-2.jpg" alt="product" />
+                  <img src="/img/product3-2.jpg" alt="product" />
                   <button>
-                    <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to
+                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
                     Cart
                   </button>
                   <p class="product-box-name">Mango People T-shirt</p>
@@ -345,9 +345,9 @@
               </router-link>
               <router-link to="/cart">
                 <article class="product-box">
-                  <img src="../assets/img/product3-3.jpg" alt />
+                  <img src="/img/product3-3.jpg" alt />
                   <button>
-                    <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to
+                    <img class="basket" src="/img/basket-w.svg" alt="Add to Cart" />Add to
                     Cart
                   </button>
                   <p class="product-box-name">Mango People T-shirt</p>
@@ -380,17 +380,17 @@
       <section class="featurebox">
         <div class="container flex-box-up">
           <div class="featurebox-item">
-            <img src="../assets/img/icn-bus.png" alt="bus" />
+            <img src="/img/icn-bus.png" alt="bus" />
             <h3>Free Delivery</h3>
             <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
           </div>
           <div class="featurebox-item">
-            <img src="../assets/img/icn-proc.png" alt="proc" />
+            <img src="/img/icn-proc.png" alt="proc" />
             <h3>Sales & discounts</h3>
             <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
           </div>
           <div class="featurebox-item">
-            <img src="../assets/img/icn-crown.png" alt="crown" />
+            <img src="/img/icn-crown.png" alt="crown" />
             <h3>Quality assurance</h3>
             <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
           </div>

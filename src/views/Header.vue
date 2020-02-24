@@ -3,7 +3,7 @@
     <div class="container top-header">
       <div class="top-left-header">
         <router-link class="logo top-left-header__logo" to="/">
-          <img src="../assets/img/logo.png" alt="Brand" />
+          <img src="/img/logo.png" alt="Brand" />
           <p class="logo__text">
             Bran
             <span class="logo__text_pink">d</span>
@@ -77,12 +77,12 @@
       <div class="top-right-header">
         <div class="dropdown">
           <router-link to="/cart" class="dropbtn">
-            <img class="basket" src="../assets/img/basket.svg" alt="My Basket" />
+            <img class="basket" src="/img/basket.svg" alt="My Basket" />
           </router-link>
           <div class="cart__items-count">2</div>
           <div class="cart dropdown-content">
             <div class="goods cf">
-              <img src="../assets/img/layer-44.jpg" alt="Rebox Zane" />
+              <img src="/img/layer-44.jpg" alt="Rebox Zane" />
               <div class="info">
                 <router-link to="/single">
                   <p class="name">Rebox Zane</p>
@@ -99,7 +99,7 @@
               <i class="fa fa-times-circle" aria-hidden="true"></i>
             </div>
             <div class="goods cf">
-              <img src="../assets/img/layer-45.jpg" alt="Rebox Zane" />
+              <img src="/img/layer-45.jpg" alt="Rebox Zane" />
               <div class="info">
                 <router-link to="/brand">
                   <p class="name">Rebox Zane</p>

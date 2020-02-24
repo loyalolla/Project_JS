@@ -8,7 +8,7 @@
           </div>
           <div class="breadcrumb-right">
             <p class="breadcrumb-path">
-              <router-link to="/">Home</router-link>/
+              <router-link to="/">Home</router-link> /
               <router-link to="/checkout">
                 <span>Checkout</span>
               </router-link>
@@ -30,7 +30,7 @@
           <div class="cart-column cart-product__main">
             <router-link class="cart-image" to="/single">
               <img
-                src="../assets/img/123.jpg"
+                src="/img/123.jpg"
                 title="Mango people t-shirt"
                 alt="Mango people t-shirt"
               />
@@ -69,7 +69,7 @@
           <div class="cart-column cart-product__main">
             <router-link class="cart-image" to="/single">
               <img
-                src="../assets/img/product1-2.jpg"
+                src="/img/product1-2.jpg"
                 title="Mango people t-shirt"
                 alt="Mango people t-shirt"
               />
@@ -108,7 +108,7 @@
           <div class="cart-column cart-product__main">
             <router-link class="cart-image" to="/single">
               <img
-                src="../assets/img/product1-3.jpg"
+                src="/img/product1-3.jpg"
                 title="Mango people t-shirt"
                 alt="Mango people t-shirt"
               />

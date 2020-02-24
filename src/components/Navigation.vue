@@ -89,7 +89,7 @@
                 </li>
               </ul>
               <div class="super-sale">
-                <img src="../assets/img/sale.jpg" alt="Super sale" />
+                <img src="/img/sale.jpg" alt="Super sale" />
                 <p>Super sale!</p>
               </div>
             </div>
