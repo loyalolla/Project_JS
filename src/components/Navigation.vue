@@ -1,20 +1,19 @@
 <template>
-<!-- <div id="nav">
+  <!-- <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-    <router-link to="/brand">Man</router-link>
-</div> -->
+  </div>-->
   <nav class="header__nav">
     <ul>
       <li>
-        <a class="active_link" href="index.html">Home</a>
+        <router-link exact-active-class="active_link" to="/">Home</router-link>
       </li>
       <li>
-        <a href="brand.html">Man</a>
+        <router-link active-class="active_link" to="/brand">Man</router-link>
       </li>
       <li>
         <div class="dropdown">
-          <a href="single.html">Women</a>
+          <router-link active-class="active_link" to="/single">Women</router-link>
           <div class="mega-menu dropdown-content">
             <div class="mega-menu-row list-dropdown">
               <p class="title-dropdown">Women</p>
@@ -118,8 +117,7 @@
 </template>
 
 <script>
-
 export default {
-  name: "Navigation",
+  name: "Navigation"
 };
 </script>
