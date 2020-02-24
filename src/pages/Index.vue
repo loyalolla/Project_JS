@@ -46,86 +46,86 @@
       <section class="container product">
         <h3 class="product-title">Featured Items</h3>
         <p class="product-desc">Shop for items based on what we featured in this week</p>
-        <a href="cart.html">
-          <article class="product-box">
-            <img src="../assets/img/Layer_2.png" alt />
-            <button>
-              <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
-            </button>
-            <p class="product-box-name">Mango People T-shirt</p>
-            <p class="product-box-price">$52.00</p>
-          </article>
-        </a>
-        <a href="cart.html">
-          <article class="product-box">
-            <img src="../assets/img/Layer_3.png" alt />
-            <button>
-              <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
-            </button>
-            <p class="product-box-name">Mango People T-shirt</p>
-            <p class="product-box-price">$52.00</p>
-          </article>
-        </a>
-        <a href="cart.html">
-          <article class="product-box">
-            <img src="../assets/img/Layer_4.png" alt />
-            <button>
-              <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
-            </button>
-            <p class="product-box-name">Mango People T-shirt</p>
-            <p class="product-box-price">$52.00</p>
-          </article>
-        </a>
-        <a href="cart.html">
-          <article class="product-box">
-            <img src="../assets/img/Layer_5.png" alt />
-            <button>
-              <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
-            </button>
-            <p class="product-box-name">Mango People T-shirt</p>
-            <p class="product-box-price">$52.00</p>
-          </article>
-        </a>
-        <a href="cart.html">
-          <article class="product-box">
-            <img src="../assets/img/Layer_6.png" alt />
-            <button>
-              <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
-            </button>
-            <p class="product-box-name">Mango People T-shirt</p>
-            <p class="product-box-price">$52.00</p>
-          </article>
-        </a>
-        <a href="cart.html">
-          <article class="product-box">
-            <img src="../assets/img/Layer_7.png" alt />
-            <button>
-              <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
-            </button>
-            <p class="product-box-name">Mango People T-shirt</p>
-            <p class="product-box-price">$52.00</p>
-          </article>
-        </a>
-        <a href="cart.html">
-          <article class="product-box">
-            <img src="../assets/img/Layer_8.png" alt />
-            <button>
-              <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
-            </button>
-            <p class="product-box-name">Mango People T-shirt</p>
-            <p class="product-box-price">$52.00</p>
-          </article>
-        </a>
-        <a href="cart.html">
-          <article class="product-box">
-            <img src="../assets/img/Layer_9.png" alt />
-            <button>
-              <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
-            </button>
-            <p class="product-box-name">Mango People T-shirt</p>
-            <p class="product-box-price">$52.00</p>
-          </article>
-        </a>
+          <router-link to="/cart">
+            <article class="product-box">
+              <img src="../assets/img/Layer_2.png" alt />
+              <button>
+                <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
+              </button>
+              <p class="product-box-name">Mango People T-shirt</p>
+              <p class="product-box-price">$52.00</p>
+            </article>
+          </router-link>
+          <router-link to="/cart">
+            <article class="product-box">
+              <img src="../assets/img/Layer_3.png" alt />
+              <button>
+                <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
+              </button>
+              <p class="product-box-name">Mango People T-shirt</p>
+              <p class="product-box-price">$52.00</p>
+            </article>
+          </router-link>
+          <router-link to="/cart">
+            <article class="product-box">
+              <img src="../assets/img/Layer_4.png" alt />
+              <button>
+                <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
+              </button>
+              <p class="product-box-name">Mango People T-shirt</p>
+              <p class="product-box-price">$52.00</p>
+            </article>
+          </router-link>
+          <router-link to="/cart">
+            <article class="product-box">
+              <img src="../assets/img/Layer_5.png" alt />
+              <button>
+                <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
+              </button>
+              <p class="product-box-name">Mango People T-shirt</p>
+              <p class="product-box-price">$52.00</p>
+            </article>
+          </router-link>
+          <router-link to="/cart">
+            <article class="product-box">
+              <img src="../assets/img/Layer_6.png" alt />
+              <button>
+                <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
+              </button>
+              <p class="product-box-name">Mango People T-shirt</p>
+              <p class="product-box-price">$52.00</p>
+            </article>
+          </router-link>
+          <router-link to="/cart">
+            <article class="product-box">
+              <img src="../assets/img/Layer_7.png" alt />
+              <button>
+                <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
+              </button>
+              <p class="product-box-name">Mango People T-shirt</p>
+              <p class="product-box-price">$52.00</p>
+            </article>
+          </router-link>
+          <router-link to="/cart">
+            <article class="product-box">
+              <img src="../assets/img/Layer_8.png" alt />
+              <button>
+                <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
+              </button>
+              <p class="product-box-name">Mango People T-shirt</p>
+              <p class="product-box-price">$52.00</p>
+            </article>
+          </router-link>
+          <router-link to="/cart">
+            <article class="product-box">
+              <img src="../assets/img/Layer_9.png" alt />
+              <button>
+                <img class="basket" src="../assets/img/basket-w.svg" alt="Add to Cart" />Add to Cart
+              </button>
+              <p class="product-box-name">Mango People T-shirt</p>
+              <p class="product-box-price">$52.00</p>
+            </article>
+          </router-link>
         <button class="btn browse-products">
           Browse All Products
           <i class="fas fa-long-arrow-alt-right"></i>

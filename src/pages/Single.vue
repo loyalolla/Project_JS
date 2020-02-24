@@ -8,14 +8,11 @@
           </div>
           <div class="breadcrumb-right">
             <p class="breadcrumb-path">
-              <a href="index.html">Home</a> /
-              <a href="#">Man</a> /
-              <a href="brand.html">
-                <span>
-                  New
-                  Arrivals
-                </span>
-              </a>
+              <router-link to="/">Home</router-link> /
+              <router-link to="/brand">Man</router-link> /
+              <router-link to="/brand">
+                <span>New Arrivals</span>
+              </router-link>
             </p>
           </div>
         </div>
@@ -56,7 +53,7 @@
 
       <section class="container product blocks-margin">
         <h3 class="product-title">YOU MAY LIKE ALSO</h3>
-        <a href="cart.html">
+        <router-link to="/cart">
           <article class="product-box">
             <img src="../assets/img/single1.jpg" alt />
             <button>
@@ -65,8 +62,8 @@
             <p class="product-box-name">BLAZE LEGGINGS</p>
             <p class="product-box-price">$52.00</p>
           </article>
-        </a>
-        <a href="cart.html">
+        </router-link>
+        <router-link to="/cart">
           <article class="product-box">
             <img src="../assets/img/single2.jpg" alt />
             <button>
@@ -75,8 +72,8 @@
             <p class="product-box-name">ALEXA SWEATER</p>
             <p class="product-box-price">$52.00</p>
           </article>
-        </a>
-        <a href="cart.html">
+        </router-link>
+        <router-link to="/cart">
           <article class="product-box">
             <img src="../assets/img/single3.jpg" alt />
             <button>
@@ -85,8 +82,8 @@
             <p class="product-box-name">AGNES TOP</p>
             <p class="product-box-price">$52.00</p>
           </article>
-        </a>
-        <a href="cart.html">
+        </router-link>
+        <router-link to="/cart">
           <article class="product-box">
             <img src="../assets/img/single4.jpg" alt />
             <button>
@@ -95,7 +92,7 @@
             <p class="product-box-name">SYLVA SWEATER</p>
             <p class="product-box-price">$52.00</p>
           </article>
-        </a>
+        </router-link>
       </section>
     </Page>
   </div>

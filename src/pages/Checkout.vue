@@ -8,10 +8,10 @@
           </div>
           <div class="breadcrumb-right">
             <p class="breadcrumb-path">
-              <a href="index.html">Home</a> /
-              <a href="checkout.html">
+              <router-link to="/index">Home</router-link>/
+              <router-link to="/checkout">
                 <span>Checkout</span>
-              </a>
+              </router-link>
             </p>
           </div>
         </div>

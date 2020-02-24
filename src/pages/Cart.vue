@@ -8,10 +8,10 @@
           </div>
           <div class="breadcrumb-right">
             <p class="breadcrumb-path">
-              <a href="index.html">Home</a> /
-              <a href="checkout.html">
+              <router-link to="/">Home</router-link>/
+              <router-link to="/checkout">
                 <span>Checkout</span>
-              </a>
+              </router-link>
             </p>
           </div>
         </div>
@@ -28,13 +28,17 @@
         </header>
         <article class="cart-product">
           <div class="cart-column cart-product__main">
-            <a class="cart-image" href="single.html">
-              <img src="../assets/img/123.jpg" title="Mango people t-shirt" alt="Mango people t-shirt" />
-            </a>
+            <router-link class="cart-image" to="/single">
+              <img
+                src="../assets/img/123.jpg"
+                title="Mango people t-shirt"
+                alt="Mango people t-shirt"
+              />
+            </router-link>
             <div class="cart-product__details">
-              <a class="cart-product__title" href="single.html">
+              <router-link class="cart-product__title" to="/single">
                 <h2>Mango people t-shirt</h2>
-              </a>
+              </router-link>
               <div class="cart-product__attr">
                 Color:
                 <a href="#">Red</a>
@@ -63,13 +67,17 @@
         </article>
         <article class="cart-product">
           <div class="cart-column cart-product__main">
-            <a class="cart-image" href="single.html">
-              <img src="../assets/img/product1-2.jpg" title="Mango people t-shirt" alt="Mango people t-shirt" />
-            </a>
+            <router-link class="cart-image" to="/single">
+              <img
+                src="../assets/img/product1-2.jpg"
+                title="Mango people t-shirt"
+                alt="Mango people t-shirt"
+              />
+            </router-link>
             <div class="cart-product__details">
-              <a class="cart-product__title" href="single.html">
+              <router-link class="cart-product__title" to="/single">
                 <h2>Mango people t-shirt</h2>
-              </a>
+              </router-link>
               <div class="cart-product__attr">
                 Color:
                 <a href="#">Red</a>
@@ -98,13 +106,17 @@
         </article>
         <article class="cart-product">
           <div class="cart-column cart-product__main">
-            <a class="cart-image" href="single.html">
-              <img src="../assets/img/product1-3.jpg" title="Mango people t-shirt" alt="Mango people t-shirt" />
-            </a>
+            <router-link class="cart-image" to="/single">
+              <img
+                src="../assets/img/product1-3.jpg"
+                title="Mango people t-shirt"
+                alt="Mango people t-shirt"
+              />
+            </router-link>
             <div class="cart-product__details">
-              <a class="cart-product__title" href="single.html">
+              <router-link class="cart-product__title" to="/single">
                 <h2>Mango people t-shirt</h2>
-              </a>
+              </router-link>
               <div class="cart-product__attr">
                 Color:
                 <a href="#">Red</a>
@@ -133,7 +145,7 @@
         </article>
         <footer class="cart-footer">
           <a class="button-second" href="#">CLEAR SHOPPING CART</a>
-          <a class="button-second" href="products.html">CONTINUE sHOPPING</a>
+          <router-link class="button-second" to="/brand">CONTINUE SHOPPING</router-link>
         </footer>
       </div>
       <aside class="cart-blocks container">
@@ -171,7 +183,7 @@
             <span class="currency">900</span>
           </h2>
           <hr />
-          <a class="button-main button-main--cart" href="checkout.html">Proceed to checkout</a>
+          <router-link to="/checkout" class="button-main button-main--cart">Proceed to checkout</router-link>
         </section>
       </aside>
     </Page>

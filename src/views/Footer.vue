@@ -36,13 +36,13 @@
     <footer class="footer">
       <div class="container flex-box-up">
         <div class="footer-block">
-          <a class="logo footer__logo" href="index.html">
+          <router-link class="logo footer__logo" to="/">
             <img src="../assets/img/logo.png" alt="Brand" />
             <p class="logo__text">
               Bran
               <span class="logo__text_pink">d</span>
             </p>
-          </a>
+          </router-link>
           <p class="footer-text">
             Objectively transition extensive data rather than cross functional solutions.
             Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an

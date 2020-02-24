@@ -8,11 +8,11 @@
           </div>
           <div class="breadcrumb-right">
             <p class="breadcrumb-path">
-              <a href="index.html">Home</a> /
-              <a href="brand.html">Man</a> /
-              <a href="brand.html">
+              <router-link to="/">Home</router-link> /
+              <router-link to="/brand">Man</router-link> /
+              <router-link to="/brand">
                 <span>New Arrivals</span>
-              </a>
+              </router-link>
             </p>
           </div>
         </div>
@@ -251,7 +251,7 @@
               </select>
             </div>
             <div class="product">
-              <a href="cart.html">
+              <router-link to="/cart">
                 <article class="product-box">
                   <img src="../assets/img/product1-1.jpg" alt="product" />
                   <button>
@@ -261,8 +261,8 @@
                   <p class="product-box-name">Mango People T-shirt</p>
                   <p class="product-box-price">$52.00</p>
                 </article>
-              </a>
-              <a href="cart.html">
+              </router-link>
+              <router-link to="/cart">
                 <article class="product-box">
                   <img src="../assets/img/product1-2.jpg" alt="product" />
                   <button>
@@ -275,8 +275,9 @@
                   </p>
                   <p class="product-box-price">$52.00</p>
                 </article>
-              </a>
-              <a href="cart.html">
+              </router-link>
+
+              <router-link to="/cart">
                 <article class="product-box">
                   <img src="../assets/img/product1-3.jpg" alt />
                   <button>
@@ -286,8 +287,8 @@
                   <p class="product-box-name">Mango People T-shirt</p>
                   <p class="product-box-price">$52.00</p>
                 </article>
-              </a>
-              <a href="cart.html">
+              </router-link>
+              <router-link to="/cart">
                 <article class="product-box">
                   <img src="../assets/img/product2-1.jpg" alt="product" />
                   <button>
@@ -297,8 +298,8 @@
                   <p class="product-box-name">Mango People T-shirt</p>
                   <p class="product-box-price">$52.00</p>
                 </article>
-              </a>
-              <a href="cart.html">
+              </router-link>
+              <router-link to="/cart">
                 <article class="product-box">
                   <img src="../assets/img/product2-2.jpg" alt="product" />
                   <button>
@@ -308,8 +309,8 @@
                   <p class="product-box-name">Mango People T-shirt</p>
                   <p class="product-box-price">$52.00</p>
                 </article>
-              </a>
-              <a href="cart.html">
+              </router-link>
+              <router-link to="/cart">
                 <article class="product-box">
                   <img src="../assets/img/product2-3.jpg" alt="product" />
                   <button>
@@ -319,8 +320,8 @@
                   <p class="product-box-name">Mango People T-shirt</p>
                   <p class="product-box-price">$52.00</p>
                 </article>
-              </a>
-              <a href="cart.html">
+              </router-link>
+              <router-link to="/cart">
                 <article class="product-box">
                   <img src="../assets/img/product3-1.jpg" alt="product" />
                   <button>
@@ -330,8 +331,8 @@
                   <p class="product-box-name">Mango People T-shirt</p>
                   <p class="product-box-price">$52.00</p>
                 </article>
-              </a>
-              <a href="cart.html">
+              </router-link>
+              <router-link to="/cart">
                 <article class="product-box">
                   <img src="../assets/img/product3-2.jpg" alt="product" />
                   <button>
@@ -341,8 +342,8 @@
                   <p class="product-box-name">Mango People T-shirt</p>
                   <p class="product-box-price">$52.00</p>
                 </article>
-              </a>
-              <a href="cart.html">
+              </router-link>
+              <router-link to="/cart">
                 <article class="product-box">
                   <img src="../assets/img/product3-3.jpg" alt />
                   <button>
@@ -352,7 +353,7 @@
                   <p class="product-box-name">Mango People T-shirt</p>
                   <p class="product-box-price">$52.00</p>
                 </article>
-              </a>
+              </router-link>
             </div>
             <div class="bottom-wide flex-box">
               <div class="pagination">
