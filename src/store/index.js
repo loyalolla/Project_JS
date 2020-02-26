@@ -1,15 +1,26 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-Vue.use(Vuex)
+import commonActions from './actions/actions'
+import apiRequests from './actions/api-requests'
+import mutations from "./mutations/mutations"
+import getters from "./getters/getters";
 
-export default new Vuex.Store({
+const actions = { ...commonActions, ...apiRequests }
+
+Vue.use(Vuex);
+
+let store = new Vuex.Store({
   state: {
+    searchValue: '',
+    isMobile: false,
+    isDesktop: true,
+    products: [],
+    cart: []
   },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
-})
+  mutations,
+  actions,
+  getters,
+});
+
+export default store;
